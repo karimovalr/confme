@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+.Navbar {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.Navbar a:hover{
+    text-decoration: none;
+    color: #816BB6;
+}
+
+.Navbar__Logo {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.Navbar__Menu {
+    display: flex;
+    align-items: center;
+}
+
+.Navbar__Menu ul {
+    margin: 0
+}
+
+.Navbar__Menu ul li {
+    display: inline;
+    margin: 0 40px
+}
+
+.Navbar__Lang {
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+.Welcome {
+    display: flex;
+    margin: 28px 0 124px;
+}
+
+.Picture {
+    width: 50%;
+}
+
+.Welcome__Text h2 {
+    margin: 90px 0 70px;
+}
+
+.Welcome__Text p {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Welcome__Formats button {
+    border: 3px solid #bfabf1;
+    outline: none;
+    background: white;
+    width: 157px;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    margin-right: 10px;
+    transition: 200ms;
+}
+.Welcome__Formats button:hover {
+    color: white;
+
+    background:  #bfabf1;
+    transition: 200ms;
+   
+}
+
+.Info h1 {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.Info__Row {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Info__Row__Item {
+    width: 50%;
+}
+
+.Info__Row__Item p {
+    width: 530px;
+    display: block;
+}
+
+.Functions {
+    margin-top: 60px;
+}
+
+.Functions h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.Functions__Carousel__Slide {
+    width: 100%;
+    display: flex;
+    padding: 0 100px;
+}
+
+.Functions__Carousel__Slide__Text {
+    width: 50%;
+    margin-left: 30px;
+}
+
+.Functions__Carousel__Slide__Text h5 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.Functions__Carousel__Slide__Text p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+.Functions__Carousel i {
+    color: #bfabf1;
+    font-size: 30px;
+    position: relative;
+}
+
+.Functions__Carousel__Slide img {
+    width: 400px;
+    height: 375px;
+}
+
+.carousel-control-prev {
+
+    display: flex;
+    justify-content: flex-start !important;
+    margin-bottom: 70px;
+}
+
+.carousel-control-next {
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.carousel-indicators li {
+    width: 17px !important;
+    height: 17px !important;
+    border-radius: 50% !important;
+    display: block;
+    background: #bfabf1 !important;
+    border: none !important;
+    margin: 0 15px !important;
+
+}
+
+.carousel-indicators {
+
+    display: flex;
+    align-items: flex-end;
+}
+
+.slide {
+    height: 450px
+}
+
+.Form {
+    margin-top: 60px;
+
+}
+
+.Form__Content {
+    display: flex;
+
+}
+
+.Form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.Form form {
+    width: 500px;
+    background: #DBDBDB;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.Form form input {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 15px;
+
+
+}
+
+.Form form input:placeholder {
+    font-size: 20px;
+    color: #8B8B8B;
+}
+
+
+.Form form button {
+    width: 253px;
+    height: 40px;
+    background: #BFABF1;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    margin: 15px auto;
+    border: none;
+}
+.Form form button:hover{
+    border: 3px solid white ;
+    transition: 100ms;
+    
+}
+
+.Form__Content img {
+    height: 400px;
+    margin-left: 90px;
+
+}
+
+
+footer {
+    background: #816BB6;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+    margin-top: 80px;
+    
+}
+
+
+
+footer .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links{
+    color: whitesmoke;
+}
+
+footer .content .social-links ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+footer .content .social-links ul li {
+    list-style: none;
+    padding: 0;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+footer .content .social-links span {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+
+footer .content .social-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    height: 100%;
+
+}
+
+footer .content .social-links ul li a:hover {
+ font-weight: 500;
+ color: white;
+}
+
+.rights{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+.contacts{
+display: flex;
+margin-top: 40px;
+}
+.contacts .text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+    font-size: 25px;
+}
+
+.contacts a{
+    color: black;
+    text-decoration: none;
+}
